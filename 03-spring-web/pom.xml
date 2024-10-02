@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>hello-spring</artifactId>
+    <artifactId>spring-web</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>01-hello-spring</name>
-    <description>01-hello-spring</description>
+    <name>03-spring-web</name>
+    <description>03-spring-web</description>
     <url/>
     <licenses>
         <license/>
@@ -39,6 +39,11 @@
                     <artifactId>spring-boot-starter-logging</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <!-- Spring Boot Web Starter for building web, including RESTful applications -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>
